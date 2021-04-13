@@ -18,14 +18,4 @@ message Person {
 
   // a list of phone numbers that is optional to provide at signup
   repeated string phone_numbers = 7;
-
-  // We currently consider sonly 3 eye colors;
-  enum EyeColor {
-    UNKNOWN_EYE_COLOR = 0;
-    EYE_GREEN = 1;
-    EYE_BROWN = 2;
-    EYE_BLYE = 3;
-  }
-  // It's an enum as defined above
-  EyeColor eye_color = 8;
 }
