@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+enum DayOfWeek {
+  UNDEFINED = 0;
+  TUESDAY = 2;
+  MONDAY = 1;
+  THUSDAY = 4;
+  WEDNESDAY = 3;
+  SATURDAY = 6;
+  FRIDAY = 5;
+  SUNDAY = 7;
+}
