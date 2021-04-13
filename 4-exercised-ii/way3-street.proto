@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "4-exercised-ii/way3-city.proto";
+
+message street {
+  string street_name = 1;
+  city city = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "4-exercised-ii/way4-city.proto";
+package learning;
+
+message street {
+  string street_name = 1;
+  my.city.city city = 2;
+}
